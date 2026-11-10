@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PowerRealm SMP | Rank Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #10131c;
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 25px;
+      background: #191f30;
+    }
+    h1 { color: #54a5ff; }
+    .container {
+      padding: 25px;
+    }
+    .rank {
+      background: #20283a;
+      padding: 22px;
+      margin: 18px auto;
+      border-radius: 12px;
+      max-width: 320px;
+    }
+    .rank h2 { color: #54a5ff; }
+    button {
+      background: #2878df;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 7px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    footer {
+      padding: 25px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>⚔ POWERREALM SMP</h1>
+  <p>Official Rank Store</p>
+</header>
+
+<div class="container">
+  <h2>Choose Your Rank</h2>
+  <p>Unlock exclusive perks and upgrade your adventure!</p>
+
+  <div class="rank">
+    <h2>VIP</h2>
+    <p>Starter Rank</p>
+    <h3>Price: Coming Soon</h3>
+    <button onclick="order('VIP')">Buy Now</button>
+  </div>
+
+  <div class="rank">
+    <h2>MVP</h2>
+    <p>Premium Rank</p>
+    <h3>Price: Coming Soon</h3>
+    <button onclick="order('MVP')">Buy Now</button>
+  </div>
+
+  <div class="rank">
+    <h2>LEGEND</h2>
+    <p>Elite Rank</p>
+    <h3>Price: Coming Soon</h3>
+    <button onclick="order('LEGEND')">Buy Now</button>
+  </div>
+
+  <div class="rank">
+    <h2>KING</h2>
+    <p>Ultimate Rank</p>
+    <h3>Price: Coming Soon</h3>
+    <button onclick="order('KING')">Buy Now</button>
+  </div>
+</div>
+
+<footer>
+  <p>PowerRealm SMP © 2026</p>
+  <p>Play. Compete. Dominate.</p>
+</footer>
+
+<script>
+function order(rank) {
+  alert("You selected " + rank +
+  ". Contact our staff on Discord to complete your order!");
+}
+</script>
+
+</body>
+</html>
